@@ -12,7 +12,6 @@ public class DatabaseConnection{
     public static final String PASSWORD = "A781000411a.";
     public static final String DRIVER_CLASS = "com.mysql.cj.jdbc.Driver"; 
      
-    //private constructor
     private DatabaseConnection() {
         try {
             Class.forName(DRIVER_CLASS);
